@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="l144210.index1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="css\welcome.css" />
+    <link rel="stylesheet" type="text/css" href="css\bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css\slider.css" />
+    <link rel="shortcut icon" href="/img/favicon/fav.ico" />
+    <script type="text/javascript" src="javascript\responsiveslides.js"></script>
+    <script type="text/javascript" src="javascript\responsiveslides.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"> 
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <div class="upper navbar-fixed-top">
+        <div class="navbar">
+            <ul>
+                <asp:ContentPlaceHolder ID="header" runat="server"> 
+                </asp:ContentPlaceHolder>
+              </ul>
+        </div>                
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

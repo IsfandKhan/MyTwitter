@@ -1,0 +1,133 @@
+﻿body{
+    margin:46px 63px 0 63px;
+    background:#F0F0F0;
+}
+li {
+    text-decoration:none;
+    color:#808080;
+    background-color: #fff;
+    transition: all .15s ease-in-out;
+    opacity:0.8;
+}
+li:hover{
+    opacity:1.0;
+}
+li a:hover {
+    text-decoration:none;
+    color:#0084B4;
+    background-color: #fff;
+    border-bottom: 5px solid #0084B4;
+    transition: all .15s ease-in-out;
+}
+.cols{
+    background:#fff;
+    margin-top:10px;
+    background-clip: inherit;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    line-height: 20px;
+}
+.threecols{
+    padding: 15px;
+}
+.prof-pic-up{
+    background-color:#2B7BB9;
+    padding: 45px;
+    color:#fff
+}
+.prof-pic-down{
+    background-color:#fff;
+    padding: 0px 15px 10px 15px;
+}
+.overlay { 
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    background: url(/img/dp/purple.jpg) ;
+    width: 60px; 
+    left: 58px;
+    top: 115px;     
+    height: 60px; 
+    position: absolute;
+}
+.overlay-info{
+    margin-left:80px;
+    line-break:normal;
+}
+.font-color{
+    color:#2B7BB9;
+}
+.tweets {
+    margin:10px 0 0 0px;
+    padding:0;
+}
+.tweet-box {
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #e1e8ed;
+    background-color: #E9F1F8;
+    padding: 10px 12px;
+    margin-left
+}
+.ending-box {
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #e1e8ed;
+    background-color: #fff;
+}
+
+.tweet-image {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    margin-left:10px;
+}
+.tweet-form {
+    margin-left : 50px;
+    font-size: 12px;
+}
+.tweet{
+    overflow: hidden;
+    text-shadow: none;
+    vertical-align: top;
+    width: 450px;
+    margin-left:50px;
+}
+.tweet:focus{
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 8px 10px;
+    min-height: 64px;   
+}
+
+.all-tweets {
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #e1e8ed;
+    background-color: #FFF;
+    position: relative;
+    min-height: 51px;
+    padding: 9px 12px;
+}
+.all-tweets:hover {
+    background-color:#F0F0F0;
+}
+.all-tweet-image {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    margin-left:10px;
+}
+.abbu {
+    margin-left : 65px;
+    font-size: 15px;
+}
+.tweet-actions-images{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 0 0 0 0;
+}
+.reply {
+    margin-left:60px;
+}

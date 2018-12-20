@@ -1,0 +1,194 @@
+﻿.cover{
+
+}
+.profile-body{
+    padding-top:0px;
+    padding-left:110px;
+    background:#F0F0F0;
+}
+
+li {
+    text-decoration:none;
+    color:#808080;
+    background-color: #fff;
+    transition: all .15s ease-in-out;
+    opacity:0.8;
+}
+li:hover{
+    opacity:1.0;
+}
+li a:hover {
+    text-decoration:none;
+    color:#0084B4;
+    background-color: #fff;
+    border-bottom: 5px solid #0084B4;
+    transition: all .15s ease-in-out;
+}
+.cols{
+    background:#fff;
+    margin-top:10px;
+    background-clip: inherit;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    line-height: 20px;
+}
+.threecols{
+    padding: 15px;
+    margin-left:20px;
+    border: 2px solid #e1e8ed;
+}
+.prof-pic-up{
+    background-color:#2B7BB9;
+    padding: 110px;
+    color:#fff
+}
+.overlay { 
+    border: 5px solid #fff;
+    border-radius: 10px;
+    background: url(/img/dp/purple2.jpg) ;
+    width: 200px; 
+    height: 200px;
+    left: 90px;
+    top: 100px;      
+    position: absolute;
+}
+.overlay-info{
+    margin-left:350px;
+    margin-top:10px;
+    font-size:medium;
+    line-height:20px;
+    padding: 0px 0 0 0;
+    color:#000;
+    background-color: #fff;
+    border-bottom: 5px solid #0084B4;
+    }
+.person-info{
+    font-size:17px;
+    line-height:22px;
+    margin: 40px 0 0 -20px;
+}
+
+.font-color{
+    color:#2B7BB9;
+}
+.tweets {
+    margin:10px 0 0 20px;
+    padding:0;
+}
+.tweet-box {
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #e1e8ed;
+    background-color: #E9F1F8;
+    padding: 10px 12px;
+}
+.form{
+    margin:0;
+}
+
+.tweet-image {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    margin-left:10px;
+}
+.tweet-form {
+    margin-left : 50px;
+    font-size: 12px;
+}
+.tweet{
+    overflow: hidden;
+    text-shadow: none;
+    vertical-align: top;
+    width: 450px;
+}
+.tweet:focus{
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 8px 10px;
+    min-height: 64px;   
+}
+
+.all-tweets {
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #e1e8ed;
+    background-color: #FFF;
+    position: relative;
+    min-height: 51px;
+    padding: 9px 12px;
+}
+.all-tweets:hover {
+    background-color:#F0F0F0;
+}
+.all-tweet-image {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    margin-left:10px;
+}
+.abbu {
+    margin-left : 65px;
+    font-size: 15px;
+}
+.tweet-actions-images{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.reply {
+    margin-left:60px;
+}
+.deactivate{
+    box-shadow: 0 1px 0 #fff;
+    height: 30px;
+    line-height:11px;
+    background-image: linear-gradient(#ffcc4d,#fab81e);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d, endColorstr=#fab81e, GradientType=0)";
+    border-color: #f1a02a;
+    color: #292f33;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    background-repeat: no-repeat;
+    border: 1px solid #f1a02a;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    position: relative;
+}
+.deactivate:hover{
+    background-color: #e95f28;
+    background-image: linear-gradient(#ffcc4d,#e95f28);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d, endColorstr=#e95f28, GradientType=0)";
+    border-color: #ec8b11;
+    color: #292f33;
+}
+.save{
+    color: #fff;
+    background-color: #1da1f2;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#0C000000)";
+    border: 1px solid #3b88c3;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15);
+    height: 30px;
+    line-height: 11px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    position: relative;
+}
+.save:hover{
+    background-color: #1da1f2;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.15));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#26000000)";
+    border-color: #3b88c3;
+}
